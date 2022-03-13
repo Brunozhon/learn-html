@@ -1,0 +1,12 @@
+---
+layout: main
+title: Learn HTML
+---
+<p><span class="lead">HTML can be used for making a website.</span> HTML uses tags to creat this content.</p>
+<script>
+  // Enable popovers everywhere.
+  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+  })
+</script>
